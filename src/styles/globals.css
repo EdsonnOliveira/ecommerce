@@ -1,0 +1,107 @@
+:root {
+  --font-primary: #00DCA8;
+  --font-secundary: #4B65F9;
+  --font-black: #333;
+  --font-red: #F40F0F;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input, button {
+  all: unset
+}
+
+a, button {
+  cursor: pointer;
+}
+
+main, section, div, article, aside, button {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  transition: .4s;
+}
+
+button:hover {
+  filter: brightness(1.2)
+}
+
+.bgSecundary {
+  background-color: var(--font-secundary) !important;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.hoverToRed {
+  transition: 0.5s !important;
+}
+
+.hoverToRed:hover {
+  background-color: var(--font-red) !important;
+  transition: 0.5s;
+}
+
+.hoverToRed:hover h4 {
+  color: white
+}
+
+.hoverToWhite {
+  transition: 0.5s;
+}
+
+.hoverToWhite:hover {
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+.shadow {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.gradientRating {
+  background: linear-gradient(100deg,#F40F0F 0%, #AD1AA7 30%, #4B65F9 68%, #00DCA8 100%);
+}
+
+.manBody {
+  position: absolute;
+}
+
+.chatbot {
+  height: 90vh;
+  min-height: 500px;
+}
+
+.scrollToBottom {
+  width: 100%;
+  height: 90%;
+}
+
+.animation {
+  transition: 0.3s;
+}
+
+.scroll {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
