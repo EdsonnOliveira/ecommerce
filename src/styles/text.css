@@ -1,0 +1,149 @@
+:root {
+    --font-primary: #00DCA8;
+    --font-secundary: #4B65F9;
+    --font-black: #333;
+    --font-red: #F40F0F;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* COLOR */
+.fontPrimary {
+    color: var(--font-primary);
+}
+
+.fontSecundary {
+    color: var(--font-secundary)
+}
+
+.fontBlack {
+    color: var(--font-black)
+}
+
+.fontWhite {
+    color: #fff !important;
+}
+
+.fontGray {
+    color: #7D7D7D;
+}
+
+.fontRed {
+    color: var(--font-red);
+}
+
+/* WEIGHT */
+.fontW300 {
+    font-weight: 300;
+}
+
+.fontW400 {
+    font-weight: 400;
+}
+
+.fontW500 {
+    font-weight: 500;
+}
+
+.fontW600 {
+    font-weight: 600;
+}
+
+.fontW700 {
+    font-weight: 700;
+}
+
+.fontW800 {
+    font-weight: 800;
+}
+
+.fontW900 {
+    font-weight: 900;
+}
+
+/* SIZE */
+.fontSmall {
+    font-size: 9px;
+}
+
+/* ALIGN */
+.fontCenter {
+    text-align: center;
+}
+
+/* SPACE */
+
+.fontSpacSmall {
+    letter-spacing: 1px;
+}
+
+.fontSpacMedium {
+    letter-spacing: 2px;
+}
+
+.fontGap5 {
+    gap: 5px;
+}
+
+/* STYLE */
+
+.fontUpper {
+    text-transform: uppercase;
+}
+
+.fontUnderline {
+    text-decoration: underline;
+}
+
+.fontItalic {
+    font-style: italic;
+}
+
+/* LINE */
+
+.fontNoBreak {
+    white-space: nowrap
+}
+
+.fontWrap {
+    max-width: 400px;
+    text-wrap: wrap;
+}
+
+/* TEXT-ALIGN */
+
+.textEnd {
+    text-align: end;
+}
